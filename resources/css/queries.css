@@ -1,0 +1,129 @@
+
+@media only screen and (max-width:480px)
+{
+        body{
+            width: 100%;
+            font-size:17px;
+            font-weight: 400
+            
+    }
+    .steps-box img{
+        
+        margin: 25%;
+    }
+    .box h3,
+    .hydrated
+    {
+        text-align: center;
+     
+        
+    }
+    .steps div{
+         color: #e67e22;
+        border: 2px solid rgba(0, 0, 0, 0.64);
+        display:inline-block;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        padding: 5px;
+        font-size: 130%;
+        float: left;
+        margin-right: 25px;
+     }
+   
+        
+    }
+    
+    
+   
+}
+    
+}
+@media only screen and (max-width:769px)
+{
+    
+    body{
+         
+         width: 100%;
+        font-size:17px;
+         font-weight: 400;
+    }
+    h1{font-size: 150%;}
+    h2{font-size: 150%;}
+    section {padding: 40px 0;}
+   
+   
+    }
+    .btn-app {
+       display: none;
+    }
+
+    }
+    .longtext{
+        width: 80%;
+        margin-left: 10%:
+    }
+ 
+
+.row,
+.hero-text
+{padding: 0 4%;}
+.col {
+    width: 100;
+    margin: 0 0 1% 1.6%;
+}
+
+@media only screen and (max-width:1023px)
+{
+    body{font-size:80%;
+    font-weight: 400;}
+    section {padding: 60px 0;}
+    .btn-app {
+        float:right;
+    }
+    .phone {
+        padding-top: 15%;
+        padding-right: 0;
+        margin: 0;
+    }
+   
+    
+        
+    .long-copy{
+        width: 100%;
+        margin-left: 0px;
+    }  
+    .steps-box {
+    margin-top: 0px;
+    }
+.steps div:last-of-type{
+    margin-bottom: 20px;
+   
+    
+
+    }.row {padding: 0 2%;}
+    .hydrated
+    {
+        text-align: center;
+
+        
+    }
+    .steps:last-child{
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+        padding: 4px;
+        
+    }
+}
+    
+@media only screen and (max-width:1200px)
+{
+    .hero-text-box {
+ position: absolute;
+ width: 100%;
+        padding: 0 2%px;
+    }
+    .row {padding: 0 2%;}
+}

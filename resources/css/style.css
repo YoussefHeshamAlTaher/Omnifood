@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+     text-rendering: optimizeLegibility;
+    
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+    header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)), url(img/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+        background-attachment: fixed;
+}
+
+.hero-text-box {
+ position: absolute;
+ width: 1140px;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+    
+}
+section {
+    padding: 80px 0;
+}
+
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: '.';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+    
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 22px;
+    color: hsla(0, 0%, 100%, 0.81);
+    font-size: 230%;
+    font font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+
+    
+}
+
+h2{
+    text-align: center;
+    word-spacing: 2px;
+    margin-bottom: 22px;
+    font-size: 180%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+h2:after {
+    display: block;
+    height: 1.5px;
+    background-color:rgba(230, 126, 34, 0.57);
+    width: 400px;
+    content: "";
+    margin: 2px auto;
+    
+    
+}
+h3{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: 110%;
+    margin-bottom: 10px;
+    
+}
+
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 215px;
+    color: white;
+    transition: background-color 0.6s,border 0.6s;
+}
+
+.full:link,
+.full:visited
+{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+}
+.gohst:link,
+.gohst:visited{
+    border: 1px solid #fff;
+    color: rgba(253, 253, 253, 0.8)
+
+}
+
+.full:hover,
+.full:active
+{
+   background-color:  rgba(211, 84, 0, 0.35);
+    border: 1px solid rgba(211, 84, 0, 0.35);
+}
+.gohst:hover,
+.gohst:active{
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.35) ;
+}
+
+.logo {
+    height: 115px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    
+    
+}
+.main-nav {
+    float: right;
+    list-style: none;
+     margin-top:67.5px;
+    
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+   
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    font-weight: 300;
+   
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: rgba(230, 126, 34, 0.8);
+    transition: 0.6s;
+    } 
+ .long-copy{
+     line-height: 145%;
+     
+     width: 70%;
+     margin-left: 15%;
+     
+}
+
+.box{
+    padding-left: 3%;
+    font-size: 90%;
+    font-weight: 100%;
+    line-height: 135%;
+}
+.box ion-icon{
+    font-size: 300%;
+    margin: 0 30%;
+    color: rgba(230, 126, 34, 0.8);
+    --ionicon-stroke-width: 22px;
+}
+
+.meals {
+     list-style: none;
+     width: 100%;
+     padding-top: 0; 
+     padding-bottom: 0%;
+    
+     
+     
+   
+    
+   
+    
+}
+
+.meals li {
+    
+    display: block;
+    float: left;
+    width:25%;
+    background-color: black;
+    
+    
+   
+    
+   
+}
+.meals li:hover{
+
+    transition: 0.6s;
+    animation: normal;
+    
+}
+.pic {
+    width: 100%:
+    margin:0;
+    overflow: hidden;
+    padding-bottom: 
+    
+    
+    
+    
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.1);
+    opacity: 80%;
+    transition: 0.6s;
+    filter: blur(.5px);
+    
+    
+
+
+    
+    
+}
+.pic img:active,
+.pic img:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+    opacity: 100%;
+    filter: none;
+        
+}
+.steps-box {
+    margin-top: 22px;
+      
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:last-child{
+    padding-left: 3%;
+}
+.phone{
+    width: 40%;
+    
+    
+}
+.btn-app{
+    box-sizing: 20%
+}
+
+
+.steps{
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+   
+}
+
+.steps div{
+    color: #e67e22;
+    border: 2px solid rgba(0, 0, 0, 0.64);
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 130%;
+    float: left;
+    margin-right: 25px;
+    
+    
+}
+.btn-app img{
+    height: 50px;
+    width: 180;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+.how-it-works{
+    background-color: rgb(235, 235, 235);
+   
+}
+
+.box img{
+    width: 120%;
+    height: auto;
+    margin-bottom: 12px;
+
+    
+}
+
+.locations ion-icon{
+    font-size: 100%;
+    margin: 0;
+    color: rgba(230, 126, 34, 0.8);
+    --ionicon-stroke-width: 22px;
+    margin-right: 6px;
+    margin-top: 6px
+    
+    
+    
+}
+
+.city-info{
+    letter-spacing: 1px;
+    margin-top: 4px
+    
+}
+
+/* ------ LINKS ------ */
+
+a{
+    color:  #f87500;
+    text-decoration: underline;
+    
+}
+a:link,
+a:hover{
+    color: rgba(0, 0, 0, 0.71);
+    transition: 0.6s;
+    font-weight: 400;
+    
+}
+
+
+.customers{
+    background-image:linear-gradient(rgba(47, 47, 47, 0.66),rgba(0, 0, 0, 0.85)),url(img/Meat-wine-spices-food_3840x2160.jpg);
+    
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    
+        
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote:before{
+    content:open-quote;
+    font-size: 500%;
+    display: block;
+    margin-top:50px; 
+    
+   
+    top: 4px;
+    left: 0px;
+    color: rgba(230, 126, 34, 0.83);
+}
+
+
+cite:before{
+    content: close-quote;
+    font-size: 400%;
+    display: block;
+    text-align: right;
+    padding-right:30%;
+    
+}
+    
+    
+    
+
+cite{
+    font-size: 90%;
+    margin-top: 24px;
+    display: block;
+    color: rgba(255, 255, 255, 0.84)
+    
+}
+cite img{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+
+
+.sign-up {
+    background-color:rgb(235, 235, 235) ;
+    
+}
+.plan-box{
+    background-color: white;
+     border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 1px 2px 2px rgba(201, 201, 201, 0.69);
+    
+}
+
+.plan-box div{
+ padding: 12px;
+ border-bottom: 1px solid rgb(206, 206, 206);
+    
+}
+.plan-price{
+    font-size: 200%;
+    margin-bottom: 12px;
+    font-weight: 300;
+    color: #e67e22;
+}
+.plan-price span{
+    font-size: 40%;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.68);
+    
+    
+}
+.plan-per.meal{
+    font-size: 80%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
+    
+}
+.plan-box ul ion-icon{
+    font-size: 15px;
+    padding-right: 12px;
+}
+
+
+.plan-box div:last-child{
+    text-align: center;
+    padding: 12px 0;
+}
+.plan-box div:first-child{
+    background-color: rgba(226, 226, 226, 0.85);
+}
+
+
+
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+textarea{
+    height: 100px;
+}
+
+input[type=submit]
+{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: white;
+ 
+   
+    padding: 10px 30px;
+    font-weight: 300;
+   
+    border-radius: 215px;
+    
+    transition:  0.6s,border 0.6s;
+}
+input[type=submit]:hover{
+    background-color: rgba(230, 126, 34, 0.53);
+    transition:  0.6s,border 0.6s;
+}
+
+input[type=checkbox]
+{
+    margin: 10px 5px 10px 0px;
+}
+
+*:focus {outline: none;}
+footer{
+    background-color: rgb(41, 41, 41);
+    padding: 48px;
+    background-attachment: fixed;
+    font-size: 80%;
+    
+    
+}
+
+.footer-nav,
+.footer-social{
+    list-style: none;
+    
+    
+}
+.footer-nav{
+    float: left;
+}
+.footer-social{
+    float: right;
+}
+
+.footer-social li,
+.footer-nav li{
+    display: inline-block;
+    margin-right: 24px;
+    
+}
+.footer-social li:last-child,
+.footer-nav li:last-child{
+    margin: 0;
+    
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.footer-social li a:link,
+.footer-social li a:visited{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    border: 0;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+
+    color: rgba(219, 219, 219, 0.8);
+    }
+
+.footer-social li[id=id-1] a:hover{
+    color: rgb(59, 89, 152);
+    
+}
+.footer-social li[id=id-2] a:hover{
+    color: #1da1f2;
+}
+
+.footer-social li[id=id-3] a:hover{
+    color: rgb(52, 168, 83);
+}
+
+.footer-social li[id=id-4] a:hover{
+    color:  rgb(114, 50, 189);
+}
+.footer-social li a:hover{
+    transition: 0.6s;
+}
+
+
+
+.footer-social li a{
+    font-size: 145%;
+    
+}
+
+footer p {
+    color: rgb(116, 116, 116);
+    font-size: 90%;
+    text-align: center;
+    margin-top: 12px;
+}
+body {
+	margin: 0;
+	padding: 0; 
+}
+.header {
+	padding: 25px 0;
+	background-color: #000;
+}
+.nav{
+    background-color: rgba(157, 157, 157, 0.2);
+}
